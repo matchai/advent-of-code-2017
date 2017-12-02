@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const input = fs.readFileSync("input1", "utf8").trim();
+const input = fs.readFileSync("input", "utf8").trim();
 
 let total = 0;
 let lastNum = Number(input[input.length - 1]);
